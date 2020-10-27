@@ -1,3 +1,4 @@
+using helloworldAPI.Model;
 using Microsoft.EntityFrameworkCore;
 
 namespace helloworldAPI.ConText
@@ -9,6 +10,6 @@ namespace helloworldAPI.ConText
 
 
         }
-        public DbSet<Student> Student{get;set}
+        public DbSet<Student> Student{get;set;}
     }
 }
